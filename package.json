@@ -1,0 +1,31 @@
+{
+    "name": "shopping-site-skeleton",
+    "private": true,
+    "version": "0.0.0",
+    "scripts": {
+        "server": "nodemon --watch server/src --exec ts-node server/src/index.ts --clear",
+        "dev": "vite",
+        "build": "tsc -b && vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "express": "^5.2.1",
+        "react": "^19.2.0",
+        "react-dom": "^19.2.0"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.6",
+        "@types/jest": "^30.0.0",
+        "@types/node": "^24.10.9",
+        "@types/react": "^19.2.5",
+        "@types/react-dom": "^19.2.3",
+        "@vitejs/plugin-react": "^5.1.1",
+        "globals": "^16.5.0",
+        "jest": "^29.7.0",
+        "nodemon": "^3.1.11",
+        "ts-jest": "^29.4.6",
+        "ts-node": "^10.9.2",
+        "typescript": "~5.9.3",
+        "vite": "^7.2.4"
+    }
+}
